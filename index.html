@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>JS OOP</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container border rounded shadow mt-3 mb-3 p-2 bg-dark">
+        <h1 class="text-center border shadow m-3 p-2 rounded bg-success">JS OOP</h1>
+        <div class="row d-flex justify-content-center m-4">
+            <div class="col-5 bg-white text-center border rounded shadow p-2 m-2">
+                <h2 class="m-1 p-1 bg-primary border rounded-pill shadow">Rectangule</h2>
+                <hr>
+                <div class="form-group">
+                    <input id="r-x" type="number" class="form-control text-center" placeholder="Point X"/>
+                </div>
+                <div class="form-group">
+                    <input id="r-y" type="number" class="form-control text-center" placeholder="Point Y"/>
+                </div>
+                <div class="form-group">
+                    <input id="r-w" type="number" class="form-control text-center" placeholder="Width"/>
+                </div>
+                <div class="form-group">
+                    <input id="r-l" type="number" class="form-control text-center" placeholder="Length"/>
+                </div>
+                <div>
+                    <a class="btn btn-primary text-white shadow rounded" onClick="rct()">Set</a>
+                </div>
+            </div>
+            <div class="col-5 bg-white text-center border rounded shadow p-2 m-2 ml-4">
+                <h2 class="m-1 p-1 bg-info border rounded-pill shadow">Square</h2>
+                <hr>
+                <div class="form-group">
+                    <input id="s-x" type="number" class="form-control text-center" placeholder="Point X"/>
+                </div>
+                <div class="form-group">
+                    <input id="s-y" type="number" class="form-control text-center" placeholder="Point Y"/>
+                </div>
+                <div class="form-group">
+                    <input id="s-l" type="number" class="form-control text-center" placeholder="Length"/>
+                </div>
+                <div>
+                    <a class="btn btn-primary text-white shadow rounded" onClick="sql()">Set</a>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center m-4 mt-5">
+            <div class="col-5 bg-white text-center border rounded shadow p-2 m-2">
+                <h2 class="m-1 p-1 bg-primary border rounded-pill shadow">Oval</h2>
+                <hr>
+                <div class="form-group">
+                    <input id="o-x" type="number" class="form-control text-center" placeholder="Point X"/>
+                </div>
+                <div class="form-group">
+                    <input id="o-y" type="number" class="form-control text-center" placeholder="Point Y"/>
+                </div>
+                <div class="form-group">
+                    <input id="o-a" type="number" class="form-control text-center" placeholder="A"/>
+                </div>
+                <div class="form-group">
+                    <input id="o-b" type="number" class="form-control text-center" placeholder="B"/>
+                </div>
+                <div>
+                    <a class="btn btn-primary text-white shadow rounded" onClick="ovl()">Set</a>
+                </div>
+            </div>
+            <div class="col-5 bg-white text-center border rounded shadow p-2 m-2 ml-4">
+                <h2 class="m-1 p-1 bg-info border rounded-pill shadow">Circle</h2>
+                <hr>
+                <div class="form-group">
+                    <input id="c-x" type="number" class="form-control text-center" placeholder="Point X"/>
+                </div>
+                <div class="form-group">
+                    <input id="c-y" type="number" class="form-control text-center" placeholder="Point Y"/>
+                </div>
+                <div class="form-group">
+                    <input id="c-r" type="number" class="form-control text-center" placeholder="Radius"/>
+                </div>
+                <div>
+                    <a class="btn btn-primary text-white shadow rounded" onClick="crc()">Set</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
